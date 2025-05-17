@@ -31,4 +31,9 @@ defineProps({
   padding: 4px 0;
   width: 40%;
 }
+button:hover{
+  background: antiquewhite;
+  color: #d7a45cd0;
+  border: solid 1px #d7a45cd0;
+}
 </style>

@@ -1,7 +1,3 @@
-<script setup>
-import { RouterLink, RouterView } from 'vue-router'
-</script>
-
 <template>
   <div>
     <div class="base">
@@ -28,5 +24,9 @@ a {
   border: solid 1px rgb(161, 118, 118);
   padding: 12px;
   text-decoration: none;
+}
+a:hover {
+  background: rgb(161, 118, 118); 
+  color: #ffefd5; 
 }
 </style>
